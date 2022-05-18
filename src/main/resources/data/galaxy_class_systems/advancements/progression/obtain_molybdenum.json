@@ -1,0 +1,30 @@
+{
+  "parent": "galaxy_class_systems:progression/root",
+  "display": {
+    "icon": {
+      "item": "galaxy_class_systems:molybdenum_ingot"
+    },
+    "title": {
+      "translate": "advancements.gcs_progression.obtain_molybdenum.title"
+    },
+    "description": {
+      "translate": "advancements.gcs_progression.obtain_molybdenum.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "galaxy_class_systems:molybdenum_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

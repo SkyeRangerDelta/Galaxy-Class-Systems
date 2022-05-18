@@ -1,0 +1,16 @@
+{
+  "item.galaxy_class_systems.molybdenum_ingot": "Molybdenum Ingot",
+  "item.galaxy_class_systems.duranium_chunk": "Duranium Chunk",
+  "item.galaxy_class_systems.tritanium_alloy": "Tritanium Alloy",
+  "item.galaxy_class_systems.terminium_alloy": "Terminium Alloy",
+
+  "itemGroup.galaxyClassTab": "Galaxy Class Systems",
+
+  "block.galaxy_class_systems.molybdenum_ore": "Molybdenum Ore",
+  "block.galaxy_class_systems.molybdenum_block": "Molybdenum Block",
+
+  "advancements.gcs_progression.root.title": "Galaxy Class Systems",
+  "advancements.gcs_progression.root.description": "Space...the final frontier...",
+  "advancements.gcs_progression.obtain_molybdenum.title": "Obtain Molybdenum",
+  "advancements.gcs_progression.obtain_molybdenum.description": "Smelt some molybdenum ore."
+}

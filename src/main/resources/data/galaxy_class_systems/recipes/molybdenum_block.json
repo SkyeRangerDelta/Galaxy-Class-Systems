@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "galaxy_class_systems:molybdenum_ingot"
+    }
+  },
+  "result": {
+    "item": "galaxy_class_systems:molybdenum_block"
+  }
+}

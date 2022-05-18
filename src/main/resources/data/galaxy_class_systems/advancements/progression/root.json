@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "galaxy_class_systems:molybdenum_block"
+    },
+    "title": {
+      "translate": "advancements.gcs_progression.root.title"
+    },
+    "description": {
+      "translate": "advancements.gcs_progression.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "galaxy_class_systems:textures/gui/advancements/backgrounds/molybdenum_block.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

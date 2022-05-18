@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "galaxy_class_systems:molybdenum_ore"
+  },
+  "result": "galaxy_class_systems:molybdenum_ingot",
+  "experience": 0.8,
+  "cookingtime": 200
+}
