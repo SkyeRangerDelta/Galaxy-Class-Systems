@@ -27,7 +27,7 @@ public class GalaxyClassSystems
     public static final String MOD_ID = "galaxy_class_systems";
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public GalaxyClassSystems() {
         // Register the setup method for modloading

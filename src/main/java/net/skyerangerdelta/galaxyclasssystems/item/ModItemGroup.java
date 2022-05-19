@@ -7,7 +7,7 @@ public class ModItemGroup {
 
     public static final ItemGroup TAB_GALAXYCLASS = new ItemGroup("galaxyClassTab") {
         @Override
-        public ItemStack makeIcon() {
+        public ItemStack createIcon() {
             return new ItemStack(ModItems.MOLYBDENUM_INGOT.get());
         }
     };

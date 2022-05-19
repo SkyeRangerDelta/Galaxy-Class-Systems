@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "galaxy_class_systems:dilithium_crystal_shard"
+    }
+  },
+  "result": {
+    "item": "galaxy_class_systems:dilithium_crystal_block"
+  }
+}

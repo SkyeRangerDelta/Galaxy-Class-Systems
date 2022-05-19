@@ -23,19 +23,26 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MOLYBDENUM_ORE = registerBlock("molybdenum_ore",
             () -> new Block(AbstractBlock.Properties
-                    .of(Material.STONE)
+                    .create(Material.ROCK)
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE)
-                    .requiresCorrectToolForDrops()
-                    .strength(5f)));
+                    .setRequiresTool()
+                    .hardnessAndResistance(5f)));
 
     public static final RegistryObject<Block> MOLYBDENUM_BLOCK = registerBlock("molybdenum_block",
             () -> new Block(AbstractBlock.Properties
-                    .of(Material.HEAVY_METAL)
+                    .create(Material.IRON)
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE)
-                    .requiresCorrectToolForDrops()
-                    .strength(6f)));
+                    .setRequiresTool()
+                    .hardnessAndResistance(6f)));
+    public static final RegistryObject<Block> DILITHIUM_CRYSTAL_BLOCK = registerBlock("dilithium_crystal_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.GLASS)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(6f)));
 
 
     private  static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -46,7 +53,7 @@ public class ModBlocks {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(ModItemGroup.TAB_GALAXYCLASS)));
+                new Item.Properties().group(ModItemGroup.TAB_GALAXYCLASS)));
     }
 
     public static void register(IEventBus eventBus) {

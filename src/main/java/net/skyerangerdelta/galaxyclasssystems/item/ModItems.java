@@ -14,16 +14,19 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, GalaxyClassSystems.MOD_ID);
 
     public static final RegistryObject<Item> MOLYBDENUM_INGOT = ITEMS.register("molybdenum_ingot",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.TAB_GALAXYCLASS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.TAB_GALAXYCLASS)));
 
     public static final RegistryObject<Item> DURANIUM_CHUNK = ITEMS.register("duranium_chunk",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.TAB_GALAXYCLASS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.TAB_GALAXYCLASS)));
 
     public static final RegistryObject<Item> TRITANIUM_ALLOY = ITEMS.register("tritanium_alloy",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.TAB_GALAXYCLASS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.TAB_GALAXYCLASS)));
 
     public static final RegistryObject<Item> TERMINIUM_ALLOY = ITEMS.register("terminium_alloy",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.TAB_GALAXYCLASS)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.TAB_GALAXYCLASS)));
+
+    public static final RegistryObject<Item> DILITHIUM_CRYSTAL_SHARD = ITEMS.register("dilithium_crystal_shard",
+            () -> new Item(new Item.Properties().group(ModItemGroup.TAB_GALAXYCLASS)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

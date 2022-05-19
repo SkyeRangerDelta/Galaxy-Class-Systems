@@ -1,0 +1,30 @@
+{
+  "parent": "galaxy_class_systems:progression/root",
+  "display": {
+    "icon": {
+      "item": "galaxy_class_systems:dilithium_crystal_shard"
+    },
+    "title": {
+      "translate": "advancements.gcs_progression.obtain_dilithium.title"
+    },
+    "description": {
+      "translate": "advancements.gcs_progression.obtain_dilithium.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "galaxy_class_systems:dilithium_crystal_shard"
+          }
+        ]
+      }
+    }
+  }
+}
